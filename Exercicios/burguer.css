@@ -1,0 +1,47 @@
+body{
+    background-color: goldenrod;
+    color: black;
+}
+#cabecalho{
+    background-color: goldenrod;
+    box-shadow: 2px 2px 4px black;
+}
+.logotipo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu ul{
+    margin-left: 100%;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+#menu ul li{
+    display: inline;
+}
+#menu ul li a{
+    padding: 4px 20px;
+    display:inline-block;
+    /*parte visual do link*/
+    background-color:black;
+    color:goldenrod;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    border-radius: 5%;
+}
+#menu ul li a:hover{
+    background-color:goldenrod;
+    color: black;
+}
+.texto{
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.texto{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 20px;
+}
