@@ -1,4 +1,6 @@
 body{
+    margin-left: 0px;
+    margin-right: 0px;
     background-color: goldenrod;
     color: black;
 }
@@ -37,20 +39,16 @@ body{
     background-color:goldenrod;
     color: black;
 }
-.texto{
-    text-align: justify;
-    font-family: sans-serif;
-    font-size: 20px;
-}
+
 .texto{
     text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-family:algerian;
     font-size: 20px;
 }
 #menu02 ul {
     padding:0px;
     margin:0px;
-    background-color:#EDEDED;
+    background-color:goldenrod;
     list-style:none;
 }
 #menu02 ul li {
@@ -59,15 +57,32 @@ body{
 #menu02 ul li a {
     padding: 2px 10px;
     display: inline-block;
-
-    /* visual do link */
-    background-color:#EDEDED;
+    /* visual do link */    
+    background-color:goldenrod;
     color: #333;
     text-decoration: none;
-    border-bottom:3px solid #EDEDED;
+    border-bottom:3px solid black;
 }
 #menu02 ul li a:hover {
-    background-color:#D6D6D6;
-    color: #6D6D6D;
-    border-bottom:3px solid #EA0000;
+    background-color: black;
+    color:goldenrod ;
+    border-bottom:3px solid black;
+}
+.col h1{
+    font-family: algerian;
+    text-align: center;
+    font-size: 80px;
+}
+.card{
+    background-color: goldenrod;
+    font-size: 20px;
+    font-family: algerian;
+    border-radius: 5%;
+}
+.card p{
+    font-family: arial;
+    font-size: 12px;
+}
+.container-fluid{
+    border-style: inset black;
 }
