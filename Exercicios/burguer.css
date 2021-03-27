@@ -45,6 +45,9 @@ body{
     font-family:algerian;
     font-size: 20px;
 }
+#menu02{
+    border-style: double;
+}
 #menu02 ul {
     padding:0px;
     margin:0px;
@@ -82,7 +85,4 @@ body{
 .card p{
     font-family: arial;
     font-size: 12px;
-}
-.container-fluid{
-    border-style: inset black;
 }
